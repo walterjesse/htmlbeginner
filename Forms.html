@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: palegreen;
+        }
+        input{
+            color:firebrick        }
+        label{ color: cornflowerblue;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>FORMS</title>
+</head>
+<body>
+<H2> eMobilis Mid-Morning class</H2>
+<form action="csshtml.html" >
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" placeholder="Full Name" ><br>
+    <label for="email"> Email Adress</label>
+    <input type="email" id="email" placeholder="Email"><br>
+    <label for="sime"> Phone Number </label>
+    <input type="text" id="sime" placeholder="Number"><br>
+    <label for="DOR"> Registration Date</label>
+    <input type="date" id="DOR"><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="Gender">
+    <label for="female">female</label>
+    <input type="radio" id="female" name="Gender">
+    <label for="custom">Custom</label>
+    <input type="radio" id="custom" name="Gender"><br>
+    <label for="pic">Student pic</label>
+    <input type="file" id="pic"><br>
+    <label for="course"> Course Taken</label>
+    <select name="Course" id="course">
+c        <option value="python">Python</option>
+        <option value="Javascript">Javascript</option>
+        <option value="Css">Css</option>
+        <option value="Mit">MIT</option>
+        <option value="Google">Google Classes</option>
+        <option value="cybersecurity">Cybersecurity</option>
+    </select><br>
+    <label for="pass"> Password </label>
+    <input type="password" id="pass" placeholder="Pass.." name="passwd"><br>
+    <input type="submit" value="Register ..">
+
+
+</form>
+
+</body>
+</html>
