@@ -1,5 +1,18 @@
-        body{font-family: Algerian;
+       body{font-family: Algerian;
                 padding: 100px;
                 padding-right: 300px;
-            background-image: image();
-        ;
+            background-image: url("https://imgs.search.brave.com/DOG7uE2hghcaeMohJnjPbTPUNJslelwvvXJCI_JM9LM/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5p/UDJxVjJCODNCd3hw/Z09fT0Y5TGRBSGFF/OCZwaWQ9QXBp");
+        ;}
+        .Fruits {
+         background-color: violet;
+            border: dashed white;
+
+        }
+        .cars{
+            width: 500px;
+            text-align: center;
+            font-family: Algerian;
+            font-size: large;
+            background-color: aqua;
+            border: 3px solid red;
+        }
